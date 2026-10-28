@@ -1,0 +1,7 @@
+[
+  {"name": "laptop-03 telnet to server", "src_ip": "192.168.1.14", "dst_ip": "192.168.1.10", "proto": "tcp", "dport": 23, "src_mac": "3c:a8:2a:11:9f:02"},
+  {"name": "admin ssh to server",        "src_ip": "10.0.1.5",     "dst_ip": "192.168.1.10", "proto": "tcp", "dport": 22},
+  {"name": "pc-01 web browsing",         "src_ip": "192.168.1.20", "dst_ip": "93.184.216.34", "proto": "tcp", "dport": 443},
+  {"name": "iot-cam outbound",           "src_ip": "192.168.1.31", "dst_ip": "8.8.8.8",       "proto": "udp", "dport": 53, "src_mac": "f4:f2:6d:90:12:ac"},
+  {"name": "printer telnet admin",       "src_ip": "192.168.1.22", "dst_ip": "192.168.1.1",   "proto": "tcp", "dport": 23}
+]
